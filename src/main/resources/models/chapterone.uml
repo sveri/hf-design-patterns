@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_VD0AUFOTEeWdWctzBPQN_g" name="RootElement">
+  <packagedElement xmi:type="uml:Class" xmi:id="_hdkyUFOTEeWdWctzBPQN_g" name="Character" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ifiJIFOUEeWdWctzBPQN_g" name="KnifeBehavior"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_jqxNMFOUEeWdWctzBPQN_g" name="BowAndArrowBehavior"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_n0VDkFOUEeWdWctzBPQN_g" name="Queen">
+    <generalization xmi:type="uml:Generalization" xmi:id="_mUqyMFOVEeWdWctzBPQN_g" general="_hdkyUFOTEeWdWctzBPQN_g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ogZfYFOUEeWdWctzBPQN_g" name="King">
+    <generalization xmi:type="uml:Generalization" xmi:id="_ZAg0gFOVEeWdWctzBPQN_g" general="_hdkyUFOTEeWdWctzBPQN_g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pNDxEFOUEeWdWctzBPQN_g" name="Troll">
+    <generalization xmi:type="uml:Generalization" xmi:id="_boEFkFOVEeWdWctzBPQN_g" general="_hdkyUFOTEeWdWctzBPQN_g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_p0lrIFOUEeWdWctzBPQN_g" name="Knight">
+    <generalization xmi:type="uml:Generalization" xmi:id="_nbhFgFOVEeWdWctzBPQN_g" general="_hdkyUFOTEeWdWctzBPQN_g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_reUMkFOVEeWdWctzBPQN_g" client="_jqxNMFOUEeWdWctzBPQN_g" supplier="_mI7RsFOUEeWdWctzBPQN_g"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_tM2K8FOVEeWdWctzBPQN_g" client="_ifiJIFOUEeWdWctzBPQN_g" supplier="_mI7RsFOUEeWdWctzBPQN_g"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_mI7RsFOUEeWdWctzBPQN_g" name="WeaponBehavior"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_L_S8wFOcEeWdWctzBPQN_g" client="_hdkyUFOTEeWdWctzBPQN_g" supplier="_mI7RsFOUEeWdWctzBPQN_g"/>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_OIrS0FOWEeWdWctzBPQN_g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OIuWIFOWEeWdWctzBPQN_g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
